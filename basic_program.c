@@ -40,16 +40,15 @@ int nth_prime(int n) {
 int main() {
     printf("Hello, World!\n");
 
-    // Test Factorial function
-    int num = 5;
+    int num = 5
     printf("Factorial of %d is %d\n", num, factorial(num));
 
-    // Test Fibonacci function
-    int fib_num = 5;
+    
+    int fib_num = 5
     printf("The %dth Fibonacci number is %d\n", fib_num, fibonacci(fib_num));
 
-    // Test nth prime function
-    int prime_num = 5;
+    
+    int prime_num = 5
     printf("The %dth prime number is %d\n", prime_num, nth_prime(prime_num));
 
     return 0;
